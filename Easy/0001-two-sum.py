@@ -1,3 +1,10 @@
+"""
+Problem: Two Sum
+LeetCode ID: 1
+Topics: Array, Hash Table
+Problem: Use a dictionary to store previously visited
+numbers and their indices
+"""
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
 
@@ -10,7 +17,7 @@ class Solution:
             # Calculate the complement
             mv= target - num
 
-            # Look if compliment exists in diccionary
+            # Look if complement exists in dictionary
             if mv in dicc:
 
                 # Return index
