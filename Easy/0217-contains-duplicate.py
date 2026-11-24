@@ -5,7 +5,7 @@ class Solution:
         array = set ()
         # Go through numbers
         for num in nums:
-            # Validate if the number already exist
+            # Validate if the number already exists
             if num in array:
                 # Return True
                 return True
