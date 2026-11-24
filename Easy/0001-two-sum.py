@@ -1,10 +1,4 @@
-"""
-Problem: Two Sum
-LeetCode ID: 1
-Topics: Array, Hash Table
-Problem: Use a dictionary to store previously visited
-numbers and their indices
-"""
+
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
 
