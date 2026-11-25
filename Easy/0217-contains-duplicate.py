@@ -3,7 +3,7 @@ class Solution:
 
         #  Create an empty set to store previously visited numbers
         array = set ()
-        # Go through numbers in the set
+        # Go through numbers in nums list
         for num in nums:
             # Validate if the number already exists
             if num in array:
