@@ -1,10 +1,10 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
     
-        # Check if the lenght is different
+        # Check if both strings have the same length, if not, they cannot be anagrams.
         if len(s) != len(t):
           return False
-        # Create empty dictionaries
+        # Create empty dictionaries to store letter frequencies
         s_freq = {}
         t_freq = {}
 
@@ -22,7 +22,7 @@ class Solution:
             else:
                 t_freq[letter] = 1
 
-        # Compare dictionaries
+        # Compare dictionaries, if their letter frequencies are identical, return True.
         if s_freq == t_freq:
           return True
         else:
