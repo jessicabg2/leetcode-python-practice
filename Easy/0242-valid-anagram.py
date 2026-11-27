@@ -15,7 +15,7 @@ class Solution:
             else:
                 s_freq[letter] = 1
 
-        # Go through s and count the frequencies
+        # Go through t and count the frequencies
         for letter in t:
             if letter in t_freq:
                 t_freq[letter] += 1
