@@ -10,7 +10,7 @@ class Solution:
             # If the character already exists in the dictionary, increase its frequency by 1
             if letter in dicc:
                 dicc[letter] += 1
-            # Otherwwise, nitialize its frequency to 1
+            # Otherwise, initialize its frequency to 1
             else:
                 dicc[letter] = 1
 
